@@ -3,7 +3,7 @@
 set -eu
 
 sudo apt update
-sudo apt install libconfig++-dev libjasper-runtime libavahi-client3
+sudo apt install libconfig++-dev libjasper-runtime libavahi-client3 -y
 ./build.sh
 sudo ./install.sh
 
